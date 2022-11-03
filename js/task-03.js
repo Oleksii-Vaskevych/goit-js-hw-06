@@ -32,15 +32,16 @@ const images = [
 // imgGallEl.append(...elements);
 
 const imgGallery = ({ url, alt }) =>
-  `<li><img src = "${url}" alt = "${alt}" width="600" height="400"/></li>`;
+  `<li><img src = "${url}" alt = "${alt}" width="300" height="200"/></li>`;
 
 const imgGall = images.map(imgGallery).join("");
 // console.log("imgGall", imgGall);
 
 const imgGallEl = document.querySelector(".gallery");
-console.log(imgGallEl);
 imgGallEl.style.display = "flex";
 imgGallEl.style.alignItems = "center";
 imgGallEl.style.gap = "10px";
 
 imgGallEl.insertAdjacentHTML("afterbegin", imgGall);
+
+console.log(imgGallEl);
