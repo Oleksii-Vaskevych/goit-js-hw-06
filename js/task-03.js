@@ -32,7 +32,7 @@ const images = [
 // imgGallEl.append(...elements);
 
 const imgGallery = ({ url, alt }) =>
-  `<li><img src = "${url}" alt = "${alt}"/></li>`;
+  `<li><img src = "${url}" alt = "${alt}" width="600" height="400"/></li>`;
 
 const imgGall = images.map(imgGallery).join("");
 // console.log("imgGall", imgGall);
