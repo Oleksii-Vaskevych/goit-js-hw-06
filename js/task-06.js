@@ -4,9 +4,9 @@ const inputEl = document.querySelector("#validation-input");
 inputEl.addEventListener("blur", onInputLength);
 
 const qwerty = inputEl.getAttribute("data-length");
-console.log("qwerty =", qwerty);
+// console.log("qwerty =", qwerty);
 
-console.log(typeof qwerty);
+// console.log(typeof qwerty);
 
 function onInputLength(event) {
   // console.log("eve ", event.currentTarget.value.length);

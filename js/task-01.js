@@ -19,15 +19,15 @@ const elementCount = categoriesNumder.querySelectorAll(".item ul");
 
 // === В результаті, в консолі будуть виведені наступні повідомлення.===
 
-// console.log("Number of categories: ", categoriesEl.length);
+console.log("Number of categories: ", categoriesEl.length);
 
-// console.log("Category: ", titleName[0].textContent);
-// console.log("Elements: ", elementCount[0].childElementCount);
+console.log("Category: ", titleName[0].textContent);
+console.log("Elements: ", elementCount[0].childElementCount);
 
-// console.log("Category: ", titleName[1].textContent);
-// console.log("Elements: ", elementCount[1].childElementCount);
+console.log("Category: ", titleName[1].textContent);
+console.log("Elements: ", elementCount[1].childElementCount);
 
-// console.log("Category: ", titleName[2].textContent);
-// console.log("Elements: ", elementCount[2].childElementCount);
+console.log("Category: ", titleName[2].textContent);
+console.log("Elements: ", elementCount[2].childElementCount);
 
 // ====================================================================
