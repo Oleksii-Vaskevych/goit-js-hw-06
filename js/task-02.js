@@ -20,4 +20,4 @@ const elements = ingredients.map((ingredient) => {
 // console.log("elements ~ elements", elements);
 
 ingredientsItem.append(...elements);
-console.log("ingredientsItem", ingredientsItem)
+// console.log("ingredientsItem", ingredientsItem)

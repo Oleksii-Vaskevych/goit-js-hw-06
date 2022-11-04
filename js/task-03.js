@@ -44,4 +44,4 @@ imgGallEl.style.gap = "10px";
 
 imgGallEl.insertAdjacentHTML("afterbegin", imgGall);
 
-console.log(imgGallEl);
+// console.log(imgGallEl);
