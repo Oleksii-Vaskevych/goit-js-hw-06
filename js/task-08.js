@@ -7,8 +7,8 @@ let newObj = {};
 
 function onSubmit(event) {
   event.preventDefault();
-  const emailValue = form.email.name;
-  const passwordlValue = form.password.name;
+  const emailName = form.email.name;
+  const passwordlName = form.password.name;
 
   const emaiInputValue = form.elements.email.value;
   const passwordInputValue = form.elements.password.value;
@@ -16,8 +16,8 @@ function onSubmit(event) {
   if (emaiInputValue === "" || passwordInputValue === "") {
     return console.log("Alert! All fields must be filled");
   } else {
-    newObj[emailValue] = emaiInputValue;
-    newObj[passwordlValue] = passwordInputValue;
+    newObj[emailName] = emaiInputValue;
+    newObj[passwordlName] = passwordInputValue;
   }
 
   console.log(newObj);
